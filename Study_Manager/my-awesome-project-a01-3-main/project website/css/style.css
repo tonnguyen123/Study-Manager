@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+.bg-banner {
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+#bubble {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.menu li a {
+	color: #fff;
+	te
+}
+.wave {
+	opacity: 0.5;
+}
+*/
+
+
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Appro HTML5 Template,
+    Template URI: http://appro.intimissibd.com
+    Description: This is html5 template
+    Author: ThemeCTG
+    Author URI: http://themectg.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+    1. Google font
+	2. Theme Default CSS (body, link color, section etc)   
+-----------------------------------------------------------------------------------*/
+
+
+/*-----------------
+1. Google font
+------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+/*-------------------
+2. Theme Default CSS
+--------------------*/
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #303030;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover,
+input:focus,
+button:focus,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p span,
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+    color: #2fccd0;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #606060;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+#maps {
+    width: 100%;
+    height: 500px;
+}
+
+/*brijesh-contact-us*/
+/*slider*/
+.contact-bg
+{
+	background-image: url(../Images/contactus-slider.jpg);
+	height: 450px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.get-shot-bg
+{
+	background-color: #e9e9e7;
+}
+.clip{
+	width: 100%;
+	height: 100px;
+	-webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+	clip-path: polygon(100% 0, 0 0, 50% 100%);
+	background-color: #e9e9e7;
+}
+.reason-inquiry
+{
+	height: 120px;
+	width: 100%;
+}
+.contact-form
+{
+	font-size: 15px;
+	height: 45px;
+	border: none;
+}
+.submit-btn1
+{
+	background-color: #2fccd0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+}
+.contact-map
+{
+	background-image: url(../Images/A3K-Location.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 510px;
+	width: 100%;
+	position: relative;
+}
+.map-box01
+{
+	height: 190px;
+	width: 300px;
+	background-color:  rgba(47,204,208,1);
+	position: absolute;
+	top: 22%;
+    left: 30%;
+}
+.map-pl
+{
+	padding-top: 50px;
+    padding-left: 20px;
+}
+.map-ml
+{
+	margin: 0 auto;
+	margin-top: 65px;
+}
+.map-pl1
+{
+    padding-left: 20px;
+}
+.get-direction-btn
+{
+	height: 45px;
+	width: 180px;
+	border: 2px solid #fff;
+	border-radius: 30px;
+}
+.get-direction-btn:hover{
+	background-color: #fff;
+}
+.gd-f
+{
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+}
+.gd-f:hover{
+	color: #2fccd0;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #2fccd0;
+	margin: 0 auto;
+    margin-top: 50px;
+}
+/*end Contact us*/

@@ -1,0 +1,95 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px; font-weight:normal;}
+p{ margin:0px; padding:0px;}
+a{ text-decoration:none; -webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+-ms-transition: all 0.3s linear;
+transition: all 0.3s linear;}
+a:hover,a:focus{ text-decoration:none; outline:none;}
+ul{ margin:0px; padding:0px;}
+ul li{ list-style-type:none;}
+img{ border:0px;}
+
+/*---------- HEADER_START ----------*/
+.navbar-default{ background:#e7e7e7; margin:0px; border-radius:0px; border:0px; min-height:70px; border-bottom:1px solid #000;}
+.navbar-collapse{ padding:0px; border:0px;}
+.navbar-brand{ padding:0px; line-height:70px; height:70px; margin-left:0px !important;}
+.navbar-brand > img{ display:inline-block; height:56px; }
+.navbar-nav{ float:right;}
+.navbar-default .navbar-nav > li > a{ font-size:16px; line-height:70px; font-weight:300; color:#000; padding:0px 20px; margin:0px;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{ color:#e6a213;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ color:#e6a213; background:none;}
+.navbar-default .navbar-nav > li:last-child > a{ padding-right:0px;}
+/*---------- HEADER_EMD ----------*/
+
+/*---------- FOOTER_START ----------*/
+.footer{ background-color: #333333; padding: 35px 0 0px 0; margin-top: 0px; }
+.footer-box{ padding-bottom:35px;}
+.footer-box h2{ color: #e6a213; text-align: left; font-size:18px; font-weight:300; padding-bottom:20px; }
+.footer-box p{ font-size:14px; color:#fff; line-height:26px; font-weight:300; }
+.footer-box ul{ margin:0 0 0 20px;}
+.footer-box ul li{ font-size:15px; padding-bottom:10px; color:#fff; list-style-type:circle; font-weight:300; }
+.footer-box ul li a{ color:#fff;}
+.fotter-copyright { padding: 15px 0; background-color: #242424;}
+.copyright-text{ color:#fff; font-size:14px; font-weight:300;}
+.social-links{ float:right;}
+.social-links a{ color:#fff; font-size:14px; padding-left:15px;}
+/*---------- FOOTER_EMD ----------*/
+
+/*---------- CONTAIN_START ----------*/
+#contain{ margin-top:70px; padding:40px 0; }
+/*---------- CONTAIN_END ----------*/
+
+
+/*---------- RESPONSIVE_START ----------*/
+@media(min-width:0px) and (max-width:479px){
+/*--------------- HEADER_START --------------*/
+.navbar-default{  min-height:50px;}
+.navbar-brand{ padding:0px 0 0 15px; line-height:50px; height:50px; margin-left:0px !important;}
+.navbar-brand > img{ display:inline-block; height:38px; }
+.navbar-default .navbar-toggle{ margin:8px 15px 8px 0px; border:solid 1px #e6a213;}
+.navbar-default .navbar-toggle .icon-bar{ background:#e6a213;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{ background:#fff;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{ border:0px; background:#e7e7e7; position:absolute; top:51px; width:100%; z-index:999;}
+.navbar-nav{ margin:0px; float:left; width:100%;}
+.navbar-default .navbar-nav > li > a{ font-size:16px; line-height:40px; padding:0px 15px;}
+/*--------------- HEADER_END --------------*/
+
+/*---------- CONTAIN_START ----------*/
+#contain{ margin-top:50px;}
+/*---------- CONTAIN_START ----------*/
+
+/*---------- FOOTER_START ----------*/
+.copyright-text{ text-align:center; padding-bottom:10px; }
+.social-links{ float:none; text-align:center; }
+/*---------- FOOTER_EMD ----------*/
+}
+
+@media(min-width:480px) and (max-width:767px){
+/*--------------- HEADER_START --------------*/
+.navbar-default{  min-height:50px;}
+.navbar-brand{ padding:0px 0 0 15px; line-height:50px; height:50px; margin-left:0px !important;}
+.navbar-brand > img{ display:inline-block; height:38px; }
+.navbar-default .navbar-toggle{ margin:8px 15px 8px 0px; border:solid 1px #e6a213;}
+.navbar-default .navbar-toggle .icon-bar{ background:#e6a213;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{ background:#fff;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{ border:0px; background:#e7e7e7; position:absolute; top:51px; width:100%; z-index:999;}
+.navbar-nav{ margin:0px; float:left; width:100%;}
+.navbar-default .navbar-nav > li > a{ font-size:16px; line-height:40px; padding:0px 15px;}
+/*--------------- HEADER_END --------------*/
+
+/*---------- CONTAIN_START ----------*/
+#contain{ margin-top:50px;}
+/*---------- CONTAIN_START ----------*/
+
+/*---------- FOOTER_START ----------*/
+.copyright-text{ text-align:center; padding-bottom:10px; }
+.social-links{ float:none; text-align:center; }
+/*---------- FOOTER_EMD ----------*/
+}

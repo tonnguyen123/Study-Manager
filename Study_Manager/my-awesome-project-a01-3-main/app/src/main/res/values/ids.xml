@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edit_text_to" type="id" />
+    <item name="edit_text_subject" type="id" />
+    <item name="edit_text_message" type="id" />
+    <item name="button_send" type="id" />
+</resources>

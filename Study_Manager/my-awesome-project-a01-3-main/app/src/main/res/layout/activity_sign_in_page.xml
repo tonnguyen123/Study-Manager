@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.signInPage">
+
+
+    <TextView
+        android:id="@+id/Study_Manager_text"
+        android:layout_width="196dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="study manager"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/black"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/input_userName"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Study_Manager_text"
+        tools:ignore="TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/input_Password"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/signBtn"
+        app:layout_constraintEnd_toEndOf="@+id/input_userName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input_userName"
+        app:layout_constraintTop_toBottomOf="@+id/input_userName"
+        app:layout_constraintVertical_bias="0.034"
+        tools:ignore="TextContrastCheck"
+       />
+
+    <Button
+        android:id="@+id/signBtn"
+        android:layout_width="128dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="292dp"
+        android:autoSizeTextType="uniform"
+        android:text="sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/input_Password"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="@+id/input_Password" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/signBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/signBtn"
+        app:layout_constraintTop_toBottomOf="@+id/signBtn"
+        app:layout_constraintVertical_bias="0.049"
+        tools:ignore="TextContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

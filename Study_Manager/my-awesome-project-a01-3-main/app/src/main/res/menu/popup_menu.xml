@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_class"
+        android:title="@string/new_class_exam"/>
+
+    <item android:id="@+id/add_due"
+        android:title="@string/new_event_note"/>
+</menu>

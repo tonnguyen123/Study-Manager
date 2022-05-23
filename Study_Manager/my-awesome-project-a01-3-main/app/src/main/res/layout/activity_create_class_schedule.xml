@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.CreateClassSchedule">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="143dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26dp"
+        android:text="class creator"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#0B0B0B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/startDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="76dp"
+        android:text="What is the start date?"
+        android:textColor="#070707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/EndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginBottom="183dp"
+        android:text="What is end date?"
+        android:textColor="#101010"
+        android:textColorHint="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/ClassTimeStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/ClassTimeStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="47dp"
+        android:text="What is start time of class?"
+        android:textColor="#101010"
+        android:textColorHint="#121212"
+        app:layout_constraintBottom_toTopOf="@+id/EndClassTime"
+        app:layout_constraintEnd_toStartOf="@+id/EditStartTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/EndClassTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="43dp"
+        android:hint="hour_min"
+        android:text="What is end time of class?"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/MonD"
+        app:layout_constraintEnd_toStartOf="@+id/EditEndTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EditStartTime"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="HH:MM"
+        android:importantForAutofill="no"
+        android:inputType="time"
+        app:layout_constraintBottom_toTopOf="@+id/EditEndTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ClassTimeStart"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/EditEndTime"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="HH:MM"
+        android:importantForAutofill="no"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="@+id/Finalize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/EndClassTime"
+        app:layout_constraintTop_toBottomOf="@+id/YrEnd"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/MonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:minHeight="48dp"
+        android:text="mon"
+        android:textColor="#F44336"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TueD" />
+
+    <CheckBox
+        android:id="@+id/TueD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:minHeight="48dp"
+        android:text="tue"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/SatD"
+        app:layout_constraintEnd_toEndOf="@+id/SatD" />
+
+    <CheckBox
+        android:id="@+id/WedD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="wed"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/SunD"
+        app:layout_constraintStart_toStartOf="@+id/SunD" />
+
+    <CheckBox
+        android:id="@+id/ThuD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="12dp"
+        android:minHeight="48dp"
+        android:text="thu"
+        android:textColor="#673AB7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/EditEndTime"
+        app:layout_constraintTop_toBottomOf="@+id/EditEndTime" />
+
+    <CheckBox
+        android:id="@+id/FriD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:minHeight="48dp"
+        android:text="fri"
+        android:textColor="#FF5722"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/MonD"
+        app:layout_constraintTop_toBottomOf="@+id/MonD" />
+
+    <CheckBox
+        android:id="@+id/SatD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="9dp"
+        android:minHeight="48dp"
+        android:text="sat"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/resetButton"
+        app:layout_constraintStart_toEndOf="@+id/MonD" />
+
+    <CheckBox
+        android:id="@+id/SunD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:minHeight="48dp"
+        android:text="sun"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/resetButton"
+        app:layout_constraintEnd_toEndOf="@+id/resetButton"
+        app:layout_constraintStart_toEndOf="@+id/resetButton" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Date Selection"
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/Finalize"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Finalize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="16dp"
+        android:text="Create Schedule"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/SunD" />
+
+    <EditText
+        android:id="@+id/MthSt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="MM"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toBottomOf="@+id/DaySt"
+        app:layout_constraintEnd_toStartOf="@+id/DaySt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/DaySt"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/DaySt"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="DD"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toTopOf="@+id/EndDate"
+        app:layout_constraintEnd_toStartOf="@+id/YrSt"
+        app:layout_constraintStart_toEndOf="@+id/MthSt"
+        app:layout_constraintTop_toTopOf="@+id/startDate"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/YrSt"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="93dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="YYYY"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/DaySt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/DaySt"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/MthEnd"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="MM"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/DayEnd"
+        app:layout_constraintEnd_toStartOf="@+id/DayEnd"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/DayEnd"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="DD"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toStartOf="@+id/YrEnd"
+        app:layout_constraintStart_toEndOf="@+id/MthEnd"
+        app:layout_constraintTop_toBottomOf="@+id/EndDate"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/YrEnd"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="78dp"
+        android:background="@drawable/rectangle_layout"
+        android:ems="10"
+        android:hint="YYYY"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/DayEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/DayEnd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

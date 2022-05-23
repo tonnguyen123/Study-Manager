@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/name_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:hint="Grade type"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:ignore="RelativeOverlap,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/grade_contribution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:hint="Grade percent"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        tools:ignore="DuplicateSpeakableTextCheck,RelativeOverlap,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/grade_earned"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="179dp"
+        android:ems="10"
+        android:hint="@string/grade"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="0dp"
+        android:text="/100%"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp" />
+
+</RelativeLayout>

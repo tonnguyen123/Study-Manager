@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media(max-width:320px)
+{
+	
+}
+
+@media(min-width:411px) and (max-width:415px) {
+	
+}
+@media(min-width:320px) and (max-width:574px) 
+{
+	
+}
+
+@media(min-width:575px) and (max-width:767px) {
+	
+	
+}
+
+@media(min-width:768px) and (max-width:1022px) {
+
+}
+
+@media(min-width:1023px) and (max-width:1170px) {
+	
+	
+}

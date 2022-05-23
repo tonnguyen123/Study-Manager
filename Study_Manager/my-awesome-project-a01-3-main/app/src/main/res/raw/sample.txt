@@ -1,0 +1,120 @@
+1010
+Intro Computer Science
+Heather Matheson
+A01
+1012
+Computer Programming for Scientists and Engineers
+Kathryn L. Marcynuk
+A01
+1500
+Computing: Ideas and Innovation
+Ali Neshati
+A01
+1600
+Navigating Your Digital World
+Saulo Q. dos Santos
+A01
+2080
+Analysis of Algorithms
+Avery Miller
+A01
+2140
+Data Structures and Algorithms
+Cuneyt G. Akcora
+A01
+2150
+Object Orientation
+Olivier Tremblay-Savard
+A01
+2160
+Programming Practices
+Mehdi Niknam
+A01
+2280
+Introduction to Computer Systems
+Jon Boisvert
+A01
+3010
+Distributed Computing
+Robert W. Guderian
+A01
+3020
+Human-Computer Interaction 1
+Patrick M. Dubois
+A01
+3170
+Analysis of Algorithms and Data Structures
+Stephane J. Durocher
+A01
+3190
+Introduction to Artificial Intelligence
+John E. Anderson
+A01
+3350
+Software Engineering 1
+Heather Matheson
+A01
+3370
+Computer Organization
+Rasit Eskicioglu
+A01
+3380
+Databases Concepts and Usage
+Anifat Olawoyin
+A01
+3430
+Operating Systems
+Franklin Bristow
+A01
+3490
+Computer Graphics 1
+Jennifer Vaughan
+A01
+3820
+Introduction to Bioinformatics Algorithms
+Olivier Tremblay-Savard
+A01
+4020
+Human-Computer Interaction 2
+Andrea Bunt
+A01
+4060
+Lower Bounds and Impossibility
+Ruppa K. Thulasiram
+A01
+4190
+Artificial Intelligence
+Cuneyt G. Akcora
+A01
+4350
+Software Engineering 2
+Shaowei Wang
+A01
+4360
+Machine Learning
+Lorenzo Livi
+A01
+4380
+Database Implementation
+Adam Pazdor
+A01
+4420
+Advanced Design and Analysis of Algorithms
+Shahin Kamali
+A01
+4490
+Computer Graphics 2
+John P. Braico
+A01
+4550
+Real-Time Systems
+Michael Zapp
+A01
+4580
+Computer Security
+Noman Mohammed
+A01
+4620
+Professional Practice in Computer Science
+Christina M. Penner
+A01
